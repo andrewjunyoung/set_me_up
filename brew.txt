@@ -1,0 +1,15 @@
+cmus
+ctags
+gcc
+ghc
+gdb
+git
+tree
+tmux
+python
+htop
+zsh
+zsh-syntax-highlighting
+neovim
+go
+terminal-notifier
