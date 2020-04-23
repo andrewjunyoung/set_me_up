@@ -1,0 +1,4 @@
+zsh-git-prompt
+zsh-syntax-highlighting
+zsh-autosuggestions
+git-prompt
