@@ -1,0 +1,27 @@
+firefox:
+  url: http://download.cdn.mozilla.net/pub/mozilla.org/firefox/releases/20.0/mac/en-US/Firefox%2020.0.dmg
+  extension: dmg
+anki:
+  url: https://github.com/ankitects/anki/releases/download/2.1.23/anki-2.1.23-mac.dmg
+  extension: dmg
+citrix_workspace: 
+  url: https://www.citrix.com/en-gb/downloads/workspace-app/mac/workspace-app-for-mac-latest.html#ctx-dl-eula
+  extension: dmg
+iterm2:
+  url: https://iterm2.com/downloads/stable/iTerm2-3_3_11.zip
+  extension: zip
+karabiner_elements:
+  url: https://github.com/pqrs-org/Karabiner-Elements/releases/download/v12.9.0/Karabiner-Elements-12.9.0.dmg
+  extension: dmg
+whatsapp:
+  url: https://web.whatsapp.com/desktop/mac/files/WhatsApp.dmg
+  extension: dmg
+wire_shark:
+  url: https://2.na.dl.wireshark.org/osx/Wireshark%203.2.4%20Intel%2064.dmg
+  extension: dmg
+zoom: 
+  url: https://zoom.us/client/latest/Zoom.pkg
+  extension: pkg
+postman:
+  url: https://dl.pstmn.io/download/latest/osx
+  extension: zip
