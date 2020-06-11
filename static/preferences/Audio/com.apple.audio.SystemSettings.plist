@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>System_MixStereoToMono</key>
+	<integer>0</integer>
+	<key>device.28-11-a5-76-79-12:input</key>
+	<dict/>
+	<key>device.28-11-a5-76-79-12:output</key>
+	<dict/>
+	<key>device.AppleGFXHDAEngineOutputDP:10001:0:{2D4C-0D2C-425A534D}</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>3</integer>
+			<key>time</key>
+			<integer>75000000000</integer>
+		</dict>
+	</dict>
+	<key>device.AppleHDAEngineInput:1F,3,0,1,0:1</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>0</integer>
+			<key>time</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>device.AppleHDAEngineOutput:1F,3,0,1,1:0</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>0</integer>
+			<key>time</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>device.AppleHDAEngineOutputDP:0,1,0,1,0:0:{2D4C-0D2C-425A534D}</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>2</integer>
+			<key>time</key>
+			<integer>25000000000</integer>
+		</dict>
+	</dict>
+	<key>preferred devices</key>
+	<dict>
+		<key>input</key>
+		<array>
+			<dict/>
+			<dict/>
+			<dict/>
+		</array>
+		<key>output</key>
+		<array>
+			<dict/>
+			<dict/>
+			<dict/>
+		</array>
+		<key>system output</key>
+		<array>
+			<dict/>
+			<dict/>
+			<dict/>
+		</array>
+	</dict>
+	<key>seed</key>
+	<integer>4</integer>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>

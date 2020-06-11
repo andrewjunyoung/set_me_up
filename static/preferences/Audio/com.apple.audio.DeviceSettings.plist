@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppleHDAEngineInput:1F,3,0,1,0:1</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+		<key>input streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>24</integer>
+				<key>bytes per frame</key>
+				<integer>8</integer>
+				<key>bytes per packet</key>
+				<integer>8</integer>
+				<key>channels per frame</key>
+				<integer>2</integer>
+				<key>format flags</key>
+				<integer>4</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>44100</real>
+			</dict>
+		</array>
+	</dict>
+	<key>AppleHDAEngineOutput:1F,3,0,1,1:0</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>AppleHDAEngineOutputDP:0,1,0,1,0:0:{2D4C-0D2C-425A534D}</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>24</integer>
+				<key>bytes per frame</key>
+				<integer>8</integer>
+				<key>bytes per packet</key>
+				<integer>8</integer>
+				<key>channels per frame</key>
+				<integer>2</integer>
+				<key>format flags</key>
+				<integer>4</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>
