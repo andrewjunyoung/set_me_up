@@ -13,3 +13,4 @@ zsh-syntax-highlighting
 neovim
 go
 terminal-notifier
+mas
