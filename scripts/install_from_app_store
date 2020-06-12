@@ -1,0 +1,1 @@
+for line in `cat static/app_store.txt`; do mas install "$line"; done
