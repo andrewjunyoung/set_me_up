@@ -1,4 +1,4 @@
 .DS_Store
-downloaded_apps/
+downloads//
 *.zip
 *.dmg
