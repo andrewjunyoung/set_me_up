@@ -1,0 +1,7 @@
+cp ~/.zshrc ~/.zshrc.orig
+git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
+mv ~/.zshrc.orign ~/.zshrc
+cd ~/.oh-my-zsh/custom/plugins
+git clone https://github.com/zsh-users/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions
+cd

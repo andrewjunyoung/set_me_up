@@ -14,3 +14,4 @@ neovim
 go
 terminal-notifier
 mas
+autojump
