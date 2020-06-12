@@ -28,3 +28,6 @@ ukelele:
 postman:
   url: https://dl.pstmn.io/download/latest/osx
   extension: zip
+visual_studio_code:
+  url: https://go.microsoft.com/fwlink/?LinkID=620882
+  extension: zip
