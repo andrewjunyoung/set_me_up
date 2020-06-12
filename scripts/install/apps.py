@@ -6,7 +6,8 @@ from multiprocessing import Pool
 
 
 apps_yaml_path = './static/apps.yml'
-output_dir = './downloaded_apps/'
+downloads_dir = './downloads'
+output_dir = 'apps'
 n_threads = 7
 
 
@@ -26,8 +27,11 @@ def main():
     with open(apps_yaml_path) as file_:
         contents = safe_load(file_)
 
-    if not exists(output_dir):
-        mkdir(output_dir)
+    if not exists(f'{downloads_dir}/{output_dir}'):
+        if not exists(downloads_dir):
+            mkdir(downloads_dir)
+        mkdir(f'{downloads_dir}/{output_dir}')
+
 
     with Pool(n_threads) as pool:
         pool.starmap(download_package, [(contents, key) for key in contents.keys()])
