@@ -9,3 +9,9 @@ brew:
 	brew install $$(<$(BREW_PACKAGES))
 python:
 	pip3 install -r $(PYTHON_PACKAGES)
+
+clean_dl:
+	rm downloads/apps/*
+
+clean_repos:
+	rm -rf downloads/repos/*
