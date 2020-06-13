@@ -1,0 +1,49 @@
+{
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wrappingIndent": "same",
+    "editor.wordWrapColumn": 80,
+    "editor.minimap.enabled": false,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["J"],
+            "after": ["1", "0", "j"],
+        },
+        {
+            "before": ["K"],
+            "after": ["1", "0", "k"],
+        },
+    ],
+    "vim.textwidth": 80,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "pdflatex ➞ bibtex ➞ pdflatex × 2",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "pdflatex",
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "xelatex",
+            "tools": [
+                "xelatex"
+            ] 
+        },
+        {
+            "name": "latexmk 🔃",
+            "tools": [
+                "latexmk"
+            ]
+        },
+        {
+            "name": "latexmk (latexmkrc)",
+            "tools": [
+                "latexmk_rconly"
+            ]
+        },
+
+    ],
+    "explorer.confirmDelete": false
+}
