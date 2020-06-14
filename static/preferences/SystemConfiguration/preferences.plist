@@ -476,13 +476,13 @@
 			<key>HostNames</key>
 			<dict>
 				<key>LocalHostName</key>
-				<string>ajys-MacBook-Pro</string>
+				<string>pile-of-bones</string>
 			</dict>
 		</dict>
 		<key>System</key>
 		<dict>
 			<key>ComputerName</key>
-			<string>ajy’s MacBook Pro</string>
+			<string>pile_of_bones</string>
 			<key>ComputerNameEncoding</key>
 			<integer>0</integer>
 		</dict>

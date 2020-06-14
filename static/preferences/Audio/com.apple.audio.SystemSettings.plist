@@ -13,9 +13,9 @@
 		<key>global.arrival</key>
 		<dict>
 			<key>seed</key>
-			<integer>3</integer>
+			<integer>6</integer>
 			<key>time</key>
-			<integer>75000000000</integer>
+			<integer>105000000000</integer>
 		</dict>
 	</dict>
 	<key>device.AppleHDAEngineInput:1F,3,0,1,0:1</key>
@@ -70,7 +70,7 @@
 		</array>
 	</dict>
 	<key>seed</key>
-	<integer>4</integer>
+	<integer>7</integer>
 	<key>version</key>
 	<integer>1</integer>
 </dict>

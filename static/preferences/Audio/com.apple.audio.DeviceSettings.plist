@@ -2,6 +2,121 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>28-11-a5-76-79-12:input</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+		<key>input streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>16</integer>
+				<key>bytes per frame</key>
+				<integer>2</integer>
+				<key>bytes per packet</key>
+				<integer>2</integer>
+				<key>channels per frame</key>
+				<integer>1</integer>
+				<key>format flags</key>
+				<integer>20</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>16000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>28-11-a5-76-79-12:output</key>
+	<dict>
+		<key>controls</key>
+		<array>
+			<dict>
+				<key>element</key>
+				<integer>1</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.0</real>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>2</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.0</real>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1836414053</integer>
+				<key>value</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>8</integer>
+				<key>bytes per packet</key>
+				<integer>8</integer>
+				<key>channels per frame</key>
+				<integer>2</integer>
+				<key>format flags</key>
+				<integer>9</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>AppleGFXHDAEngineOutputDP:10001:0:{2D4C-0D2C-425A534D}</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>24</integer>
+				<key>bytes per frame</key>
+				<integer>8</integer>
+				<key>bytes per packet</key>
+				<integer>8</integer>
+				<key>channels per frame</key>
+				<integer>2</integer>
+				<key>format flags</key>
+				<integer>4</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
 	<key>AppleHDAEngineInput:1F,3,0,1,0:1</key>
 	<dict>
 		<key>controls</key>
@@ -31,7 +146,89 @@
 	<key>AppleHDAEngineOutput:1F,3,0,1,1:0</key>
 	<dict>
 		<key>controls</key>
-		<array/>
+		<array>
+			<dict>
+				<key>element</key>
+				<integer>1</integer>
+				<key>page</key>
+				<integer>1769173099</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.0</real>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>2</integer>
+				<key>page</key>
+				<integer>1769173099</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.0</real>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>1751412846</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1936945763</integer>
+				<key>value</key>
+				<integer>1751412846</integer>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>2</integer>
+				<key>page</key>
+				<integer>1751412846</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.1875503808259964</real>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>1</integer>
+				<key>page</key>
+				<integer>1751412846</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.1875503808259964</real>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>24</integer>
+				<key>bytes per frame</key>
+				<integer>8</integer>
+				<key>bytes per packet</key>
+				<integer>8</integer>
+				<key>channels per frame</key>
+				<integer>2</integer>
+				<key>format flags</key>
+				<integer>4</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>44100</real>
+			</dict>
+		</array>
 	</dict>
 	<key>AppleHDAEngineOutputDP:0,1,0,1,0:0:{2D4C-0D2C-425A534D}</key>
 	<dict>
