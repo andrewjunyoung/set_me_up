@@ -35,7 +35,7 @@
 					<key>Channel</key>
 					<integer>44</integer>
 					<key>Timestamp</key>
-					<date>2020-06-11T12:52:24Z</date>
+					<date>2020-06-14T09:18:29Z</date>
 				</dict>
 			</array>
 			<key>CollocatedGroup</key>
@@ -45,7 +45,7 @@
 			<key>HiddenNetwork</key>
 			<false/>
 			<key>LastAutoJoinAt</key>
-			<date>2020-06-11T12:52:22Z</date>
+			<date>2020-06-14T09:18:29Z</date>
 			<key>NetworkWasCaptive</key>
 			<false/>
 			<key>Passpoint</key>

@@ -10,13 +10,13 @@
 			<key>UserVisible</key>
 			<false/>
 			<key>appPID</key>
-			<integer>512</integer>
+			<integer>352</integer>
 			<key>eventtype</key>
 			<string>wake</string>
 			<key>scheduledby</key>
 			<string>com.apple.alarm.user-visible-Weekly Usage Report</string>
 			<key>time</key>
-			<date>2020-06-14T01:28:02Z</date>
+			<date>2020-06-21T04:12:07Z</date>
 		</dict>
 	</array>
 </dict>
