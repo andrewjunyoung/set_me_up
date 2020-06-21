@@ -15,7 +15,7 @@
 	<key>AppleWindowTabbingMode</key>
 	<string>manual</string>
 	<key>Command</key>
-	<string>/bin/zsh</string>
+	<string></string>
 	<key>CommandSelection</key>
 	<true/>
 	<key>CopyLastNewline</key>
@@ -264,7 +264,7 @@
 	<key>MaxVertically</key>
 	<false/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Documents/dynamic/set_me_up/static/apps/iterm</string>
+	<string>~/Documents/projects/set_me_up/static/apps/iterm</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{799, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -311,7 +311,7 @@
 	<key>NSWindow Frame NSNavPanelAutosaveName</key>
 	<string>560 456 799 448 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>226 130 882 652 0 0 1920 1057 </string>
+	<string>0 0 1920 1057 0 0 1920 1057 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -886,7 +886,7 @@
 				<real>0.0</real>
 			</dict>
 			<key>Mouse Reporting</key>
-			<false/>
+			<true/>
 			<key>Name</key>
 			<string>pile-of-bones</string>
 			<key>Non Ascii Font</key>
@@ -994,15 +994,17 @@
 	<key>NoSyncInstallationId</key>
 	<string>D9AF3B4A-A6F6-4324-9BFB-7D8F77A2CF22</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>15</integer>
+	<integer>23</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>0</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
-	<real>613741218.36140597</real>
+	<real>613838140.86363101</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
 	<true/>
+	<key>NoSyncPermissionToShowTip</key>
+	<false/>
 	<key>NoSyncRecordedVariables</key>
 	<dict>
 		<key>0</key>
@@ -1747,7 +1749,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/ajy/Documents/dynamic/set_me_up/static/apps/iterm</string>
+	<string>/Users/ajy/Documents/projects/set_me_up/static/apps/iterm</string>
 	<key>PreserveWindowSizeWhenTabBarVisibilityChanges</key>
 	<false/>
 	<key>SUEnableAutomaticChecks</key>
@@ -1759,7 +1761,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-06-12T12:31:40Z</date>
+	<date>2020-06-13T14:35:45Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SmartPlacement</key>
