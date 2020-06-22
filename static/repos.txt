@@ -1,3 +1,0 @@
-andrewjunyoung/JDvorak
-andrewjunyoung/mozc_resources
-andrewjunyoung/terminal_config
