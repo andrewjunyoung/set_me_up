@@ -4,6 +4,9 @@ from os.path import exists
 from os import mkdir
 from multiprocessing import Pool
 import subprocess
+from typing import Callable
+from dataclasses import dataclass
+from argparse import ArgumentParser
 
 
 apps_yaml_path = './static/apps.yml'
@@ -11,6 +14,23 @@ downloads_dir = './downloads'
 apps_dir = 'apps'
 output_dir = f'{downloads_dir}/{apps_dir}'
 n_threads = 7
+
+
+@dataclass
+class Step:
+    fn: Callable
+    gui: bool = False
+
+
+def str2bool(v):
+    if isinstance(v, bool):
+       return v
+    if v.lower() in ('yes', 'true', 't', 'y', '1'):
+        return True
+    elif v.lower() in ('no', 'false', 'f', 'n', '0'):
+        return False
+    else:
+        raise argparse.ArgumentTypeError('Boolean value expected.')
 
 
 def _run_bash_command(command: str) -> str:
@@ -51,9 +71,6 @@ def clear_dock_and_reset():
     )
 
 
-def get_
-
-
 def all(settings) -> None:
     if sys.platform == 'darwin':  # macOS
         install_steps = [
@@ -70,7 +87,7 @@ def all(settings) -> None:
                     prompt_logins(['firefox', 'lastpass', 'apple store']),
                     gui=True,
                 ),
-                Step(get_repos)
+                Step(get_repos),
                 Step(set_up_zsh),
                 Step(set_up_neovim),
                 Step(copy_system_preferences, gui=True),  # TODO: ?
@@ -100,7 +117,7 @@ def all(settings) -> None:
         ]
 
 
-def get_arg_parser() -> ArgumentParser:
+def get_args() -> ArgumentParser:
     """
     Returns:
         ArgumentParser: An ArgumentParser instance which will parse the
@@ -108,7 +125,7 @@ def get_arg_parser() -> ArgumentParser:
     """
 
     parser = ArgumentParser(
-        description='Run installation scripts to set up (macOS | linux).'),
+        description='Run installation scripts to set up (macOS | linux).',
         allow_abbrev=True,
     )
 
@@ -123,7 +140,7 @@ def get_arg_parser() -> ArgumentParser:
 
 
 def main():
-    args = parse_args()
+    args = get_args()
     fns[args.fn](args)
 
 
