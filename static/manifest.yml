@@ -1,0 +1,63 @@
+apps:
+  brew:
+    formulas:
+      - cmus
+      - ctags
+      - gcc
+      - ghc
+      - gdb
+      - git
+      - tree
+      - tmux
+      - python
+      - htop
+      - zsh
+      - zsh-syntax-highlighting
+      - neovim
+      - go
+      - terminal-notifier
+      - mas
+      - autojump
+    cask:
+      - firefox
+      - anki
+      - iterm2
+      - karabiner_elements
+      - whatsapp
+      - wire_shark
+      - ukelele
+      - postman
+      - visual-studio-code
+      - zoomus
+      - amethyst
+  python3:
+    - Markdown
+    - coverage
+    - jupyter
+    - mvl
+    - mypy
+    - neovim
+    - nose
+    - numpy
+    - pandas
+    - pipenv
+    - pyyaml
+    - scipy
+    - sphinx
+    - symboard
+    - tqdm
+    - twine
+    - wheel
+  app_store:
+    spark_by_readdle: 1176895641
+    microsoft_excel: 462058435
+  zsh:
+    - zsh-git-prompt
+    - zsh-syntax-highlighting
+    - zsh-autosuggestions
+    - git-prompt
+repos:
+  andrewjunyoung:
+    - JDvorak
+    - mozc_resources
+    - terminal_config
