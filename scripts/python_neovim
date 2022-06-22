@@ -1,2 +1,0 @@
-pip3 install -r set_me_up/static/python.txt
-pip3 install --upgrade pynvim
