@@ -8,16 +8,22 @@ apps:
       - gdb
       - git
       - tree
-      - tmux
       - python
       - htop
+      - go
+      - mas
+      - autojump
+      - jdk
+      - kotlin
+      # Terminal settings
+      - tmux
       - zsh
       - zsh-syntax-highlighting
       - neovim
-      - go
       - terminal-notifier
-      - mas
-      - autojump
+      # Kubernetes
+      - kubectl
+      - minikube
     cask:
       - firefox
       - anki
@@ -30,6 +36,7 @@ apps:
       - visual-studio-code
       - zoomus
       - amethyst
+      - virtualbox
   python3:
     - Markdown
     - coverage
