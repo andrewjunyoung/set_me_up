@@ -23,34 +23,24 @@ dotfiles_files:
   - .osx
   - .vimrc
 
-c_homebrew_packages: &c_homebrew_packages
-  - gdb
-  - gcc
-  - ctags
-jdk_programming_languages: &jdk_programming_languages
-  - openjdk
-  - kotlin
-  - gradle
+homebrew_packages:
+  - libffi
+  - sqlite
 
-programming_langs_homebrew_packages: &programming_languages_homebrew_packages
-  <<: *c_homebrew_packages
-  #<<: *jdk_programming_languages
-  - ruby
-  - go
-  - ghc
-  - python
-  - node
+  # Do we need any of these?
+  - opus
+  - pkg-config
+  - xkeyboardconfig
+  - xvid
+  - opusfile
 
-mongo_homebrew_packaes: &mongo_homebrew_packages
-  - mongodb-community
-  - mongodb-database-tools
-  - mongodb-compass-community
-zsh_homebrew_packages: &zsh_homebrew_packages
-  - zsh
-  - zsh-syntax-highlighting
-  - zsh-history-substring-search
-cli_productivity_homebrew_packages: &cli_productivity_homebrew_packages
-  <<: *zsh_homebrew_packages
+  # CLI tools
+  - python-yq
+  - jq # dependency of python-yq
+  - cmus
+  - openssl
+  - qrencode
+  - fontconfig
   - htop
   - git
   - tree
@@ -60,29 +50,30 @@ cli_productivity_homebrew_packages: &cli_productivity_homebrew_packages
   - nmap
   - terminal-notifier # CLI notifs
   - noti # CLI notifs
-cli_tools_homebrew_packages:
-  - python-yq
-  - jq # dependency of python-yq
-  - cmus
-  - openssl
-  - qrencode
-  - fontconfig
-cli_homebrew_packages: &cli_homebrew_packages
-  <<: *cli_tools_homebrew_packages
-  #<<: *cli_productivity_homebrew_packages
-dev_homebrew_packages:
-  #<<: *cli_homebrew_packages
-  #<<: *mongo_homebrew_packages
-  <<: *programming_languages_homebrew_packages
-  - libffi
-  - sqlite
-homebrew_packages:
-  # Needed?
-  - opus
-  - pkg-config
-  - xkeyboardconfig
-  - xvid
-  - opusfile
+  ## ZSH
+  - zsh
+  - zsh-syntax-highlighting
+  - zsh-history-substring-search
+
+  # MongoDB
+  - mongodb-community
+  - mongodb-database-tools
+  - mongodb-compass-community
+
+  # Programming languages
+  - ruby
+  - go
+  - ghc
+  - python
+  - node
+  ## C
+  - gdb
+  - gcc
+  - ctags
+  ## JDK languages
+  - openjdk
+  - kotlin
+  - gradle
 
 homebrew_taps:
   - homebrew/core
@@ -123,11 +114,7 @@ composer_packages: []
 gem_packages: []
 npm_packages: []
 
-nvim_pip_packages: &nvim_pip_packages
-  - name: neovim
-  - name: pynvim
 pip_packages:
-  <<: *nvim_pip_packages
   - name: PyYAML
   - name: certifi
   - name: charset-normalizer
@@ -145,6 +132,10 @@ pip_packages:
   - name: tqdm
   - name: urllib3
   - name: wheel
+
+  # Neovim
+  - name: neovim
+  - name: pynvim
 
 # Set to 'true' to configure Sublime Text.
 configure_sublime: false
