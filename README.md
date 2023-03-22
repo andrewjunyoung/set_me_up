@@ -6,7 +6,7 @@
 
 1. Todo: copy over your apple system settings.
 
-1. Log in to the apple store manually
+1. Log in to the app store manually
 1. Install apps from the app store by running scripts/install/app_store
 
 1. Clone all git repos using scripts/install/git.py
