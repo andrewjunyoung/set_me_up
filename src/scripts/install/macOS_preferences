@@ -1,1 +1,0 @@
-cd static/preferences/; for file in *; do defaults import /Library/Preferences/SystemConfiguration/"$file" "$file"; done;

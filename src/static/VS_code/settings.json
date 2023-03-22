@@ -14,36 +14,5 @@
         },
     ],
     "vim.textwidth": 80,
-    "latex-workshop.view.pdf.viewer": "tab",
-    "latex-workshop.latex.recipes": [
-        {
-            "name": "pdflatex ➞ bibtex ➞ pdflatex × 2",
-            "tools": [
-                "pdflatex",
-                "bibtex",
-                "pdflatex",
-                "pdflatex"
-            ]
-        },
-        {
-            "name": "xelatex",
-            "tools": [
-                "xelatex"
-            ] 
-        },
-        {
-            "name": "latexmk 🔃",
-            "tools": [
-                "latexmk"
-            ]
-        },
-        {
-            "name": "latexmk (latexmkrc)",
-            "tools": [
-                "latexmk_rconly"
-            ]
-        },
-
-    ],
     "explorer.confirmDelete": false
 }
