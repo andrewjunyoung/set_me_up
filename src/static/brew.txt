@@ -1,4 +1,3 @@
-aom
 autojump
 bdw-gc
 brotli
@@ -94,8 +93,6 @@ m4
 mad
 mas
 mbedtls
-mongodb-community
-mongodb-database-tools
 mp4v2
 mpdecimal
 mpfr
@@ -153,18 +150,13 @@ zimg
 zsh
 zsh-syntax-highlighting
 zstd
-amethyst
 android-studio
 background-music
 basictex
 firefox
-intellij-idea-ce
 iterm2
 karabiner-elements
-mongodb-compass-community
 postman
 ukelele
 visual-studio-code
 whatsapp
-wireshark
-zoomus
