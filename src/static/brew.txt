@@ -160,3 +160,5 @@ postman
 ukelele
 visual-studio-code
 whatsapp
+spotify
+google-japanese-ime
