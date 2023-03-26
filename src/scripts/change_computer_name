@@ -1,10 +1,12 @@
 #!/bin/bash
+# Set a local variable for your new computer name
+new_name="mora"
 # Bonjour name ending in .local
-scutil --set LocalHostName "My-iMac"
+scutil --set LocalHostName $new_name
 # Friendly name shown in System Preferences > Sharing
-scutil --set ComputerName "My-iMac"
+scutil --set ComputerName $new_name
 # The name recognized by the hostname command
-scutil --set HostName "My-iMac"
+scutil --set HostName $new_name
 # Save the computer's serial number in a variable so it can be used in the next command.
 serialNum=$(ioreg -l | awk '/IOPlatformSerialNumber/ { split($0, line, "\""); printf("%s\n", line[4]); }')
 # Set the NetBIOS name as the serial number
