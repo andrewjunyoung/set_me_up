@@ -1,0 +1,3 @@
+[submodule "src/static/mozc_resources"]
+	path = src/static/mozc_resources
+	url = https://github.com/andrewjunyoung/mozc_resources
