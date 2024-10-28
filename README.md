@@ -11,7 +11,7 @@
 
 1. Clone all git repos using scripts/install/git.py
 1. cd into JDvorak/, and run the install script
-1. Set up your keyboards in system settings to use Google Japanese Input; JDvorak; hindi; and pinyin input.
+1. Set up your keyboards in system settings to use Google Japanese Input; JDvorak; Shuangpin input.
 1. Set up Google Japanese Input using the files in google_japanese_input_config/
 
 1. Import your ITerm settings from file.
