@@ -8,7 +8,6 @@ neovim
 numpy
 pandas
 Pillow
-pip
 pynvim
 python-dateutil
 pytz
@@ -17,6 +16,5 @@ qrcode
 requests
 setuptools
 six
-tqdm
 urllib3
 wheel
