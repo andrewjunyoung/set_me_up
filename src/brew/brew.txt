@@ -141,6 +141,7 @@ unbound
 unibilium
 utf8proc
 webp
+wget
 xkeyboardconfig
 xorgproto
 xvid
