@@ -1,4 +1,10 @@
 autojump
+lunar
+vscode.vim
+nvm
+raycast
+awscli
+trash
 bdw-gc
 brotli
 c-ares
