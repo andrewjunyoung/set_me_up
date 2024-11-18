@@ -171,3 +171,5 @@ brew spotify
 brew google-japanese-ime
 cask wireshark
 cask zoomus
+vscode vim
+vscode markdown-all-in-one
