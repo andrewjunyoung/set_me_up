@@ -1,28 +1,26 @@
-1. Install brew 
-  by running (make get_brew). You may need to install XCode and-or update it.
-1. Install brew dependencies 
-  You may need to change file edit permissions.
-1. Install apps through brew cask (make get_from_brew_cask).
+# Setmy
 
-1. Todo: copy over your apple system settings.
+This project automatically sets up your computer to be exactly like AJY's.
 
-1. Log in to the app store manually
-1. Install apps from the app store by running scripts/install/app_store
+# Prerequisites
+1. Log into the App Store.
+1. Install git through xcode utils, and run the output commands (required in new versions of mac). You can do this by running these scripts:
+```
+```
 
-1. Clone all git repos using scripts/install/git.py
-1. cd into JDvorak/, and run the install script
-1. Set up your keyboards in system settings to use Google Japanese Input; JDvorak; Shuangpin input.
-1. Set up Google Japanese Input using the files in google_japanese_input_config/
+# Mandatory setup steps
+1. Run `git clone https://github.com/andrewjunyoung/setmy && cd setmy` to clone this repo and enter it.
+1. Run `make all` to run all the setup scripts automatically.
+1. Complete the following manual setup steps in any order:
+ 1. [MANUAL] Set up Google Japanese Input using the files in mozc_resources/
+ 1. [MANUAL] Import your iTerm settings from file.
+ 1. [MANUAL] Open neovim and run `:Plug install`
 
-1. Import your ITerm settings from file.
-1. Clear your dock (then set it up)
-1. Set up ZSH
-1. Set up neovim
+CHECK: Set up ZSH
+CHECK: Can use settings to set up dock?
+CHECK: Set up your keyboards in system settings to use Google Japanese Input; JDvorak; Shuangpin input (default keybindings).
+CHECK: Delete default US keyboard using `make force_remove_us_keyboard` and restart
 
-1. delete default US keyboard
-1. restart
+# Optional setup steps
 
-## instructions (future)
-Run "set_me_up" in your terminal. All other steps will be taken care of.
-
-
+- Rename your computer
